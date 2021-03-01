@@ -27,7 +27,7 @@
 - [x] 连接 打印连接成功
 - [x] 测试crud
 
-- 6. demo
+- 6.demo
 > /api/admin/  后台管理系统路由下的
 - [x] 登录注册
 - [x] jwt token, bcrypt 密码加密
@@ -35,7 +35,7 @@
 > /api/web/    前端展示的路由结构
 - [x] 读取文章
 
-- 7. vue-cli
+- 7.vue-cli
 - [x] 打包在web文件夹下，express静态文件服务，
 - [x] vue.config.js 打包文件配置 publicPath, outputDir 
 
