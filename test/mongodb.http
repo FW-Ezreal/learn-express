@@ -1,0 +1,27 @@
+@url=http://localhost:3100
+
+
+###
+get {{url}}/users
+
+###
+post {{url}}/user
+Content-Type: application/json
+
+{
+  "name": "ezrio",
+  "age": "16"
+}
+
+###
+PUT  {{url}}/user/60179c100c219b2264764ffe
+Content-Type: application/json
+
+{
+  "name": "xinwei.liu",
+  "age": "25"
+}
+
+###
+DELETE   {{url}}/user/601791dcc386ce1dcf369987
+

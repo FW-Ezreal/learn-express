@@ -1,0 +1,36 @@
+@url=http://localhost:3100
+
+
+###
+get {{url}}/get
+
+###
+post {{url}}/post
+
+###
+get {{url}}/getquery?a=1&b=2
+
+###
+get {{url}}/getparams/18
+
+###
+get {{url}}/geturl
+
+###
+get {{url}}/use/15
+
+
+###
+get {{url}}/api/web/getArtist
+
+###
+get {{url}}/api/admin/login
+
+###
+get {{url}}/api/admin/addArtist
+
+###
+get {{url}}/api/admin/secret
+
+###
+get {{url}}/error
